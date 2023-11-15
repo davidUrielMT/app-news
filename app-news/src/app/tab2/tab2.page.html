@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Agrega una nueva noticia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nueva noticia</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-input label="Título: " placeholder="Escribe el título de la noticia"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-input label="Fecha: " placeholder="Escribe la fecha completa"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-input label="Descripción: " placeholder="Narra la noticia completa"></ion-input>
+        </ion-item>
+  
+        <ion-item lines="none">
+          <ion-button expand="full">Agregar</ion-button>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
